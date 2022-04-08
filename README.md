@@ -1,6 +1,6 @@
 1) This Web API is also deployed to Azure App service. Refer to below link to access 
 https://appservicemgmt.azurewebsites.net/swagger/index.html
-2) Run the Web API locally in Windows
+2) To run the Web API locally in Windows
   a.Please download the zip from below link 
 https://1drv.ms/u/s!AjnsIWvfwtEah28KxLFJ1IghvzRR?e=TirAfN
   b. Extract the files from the folder
