@@ -1,6 +1,6 @@
 This Web API runs on ASP.NET core framework 6.0. 
 
-1) This Web API is also deployed to Azure App service. Refer to below link to access 
+1) This Web API is also deployed to Azure App service. Refer below link to access directly 
 https://appservicemgmt.azurewebsites.net/swagger/index.html
 2) To run the Web API locally in Windows
   a.Please download the zip from below one drive link 
