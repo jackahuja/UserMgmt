@@ -130,7 +130,9 @@ public class Service : IService
         {
             dbContext.Users.Remove(user);
             dbContext.SaveChanges();
-        }
+        }        
+        else
+            throw new AppException("User with given ID does not exist");
     }
 
     public User GetUserByName(string name)
