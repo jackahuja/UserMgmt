@@ -47,7 +47,7 @@ ________________________________________________________________________________
 To generate Jason Web Token please login with valid user for example 
   Id: admin
   password: admin
-  this step will generate a token which will be useful to authorize other APIs. For Example your admin authentication woud look something like below
+ 1) This step will generate a token which will be useful to authorize other APIs. For Example your admin authentication woud look something like below
   
   {
   "id": 3,
@@ -58,12 +58,13 @@ To generate Jason Web Token please login with valid user for example
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMiLCJuYmYiOjE2NDk0MzE2NjgsImV4cCI6MTY1MDAzNjQ2NywiaWF0IjoxNjQ5NDMxNjY4fQ.Uai4AFNazHJ7rjspOsONMrNjMrT6X4XGbB0-gsBypBY"
 }
 
-copy the freshly generated token value between "" i.e. 
+2) copy the freshly generated token value between "" i.e. 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMiLCJuYmYiOjE2NDk0MzE2NjgsImV4cCI6MTY1MDAzNjQ2NywiaWF0IjoxNjQ5NDMxNjY4fQ.Uai4AFNazHJ7rjspOsONMrNjMrT6X4XGbB0-gsBypBY
+Now At the right top of Swagger UI you would see "Authorize" button which will act as input for the token.
 
- 3) Now At the right top of Swagger UI you would see Authorize button which will act as input for the token. 
- 4) Paste the token and click on Authorize button, then close the frame. 
- 5) Now you are ready to access APIs like Admin. 
+3) Paste the token and click on Authorize button, then close the frame. 
+
+4) Now you are ready to access APIs like Admin. 
  
   
 
