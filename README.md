@@ -60,6 +60,7 @@ To generate Jason Web Token please login with valid user for example
 
 2) copy the freshly generated token value between "" i.e. 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMiLCJuYmYiOjE2NDk0MzE2NjgsImV4cCI6MTY1MDAzNjQ2NywiaWF0IjoxNjQ5NDMxNjY4fQ.Uai4AFNazHJ7rjspOsONMrNjMrT6X4XGbB0-gsBypBY
+
 Now At the right top of Swagger UI you would see "Authorize" button which will act as input for the token.
 
 3) Paste the token and click on Authorize button, then close the frame. 
